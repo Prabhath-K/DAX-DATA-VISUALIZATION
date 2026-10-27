@@ -1,7 +1,7 @@
 
-# 📊 DAX-DATA-VISUALIZATION
+#  DAX-DATA-VISUALIZATION
 
-## 📌 Power BI Sales Data Analysis and Visualization
+##  Power BI Sales Data Analysis and Visualization
 
 This project focuses on analyzing sales data using **Microsoft Power BI** and **DAX (Data Analysis Expressions)**.
 
@@ -9,7 +9,7 @@ The project includes data modeling, calculated columns, DAX measures, and intera
 
 ---
 
-## 🛠️ Tools and Technologies Used
+##  Tools and Technologies Used
 
 - Microsoft Power BI Desktop
 - DAX (Data Analysis Expressions)
@@ -20,7 +20,7 @@ The project includes data modeling, calculated columns, DAX measures, and intera
 
 ---
 
-## 📂 Dataset Description
+##  Dataset Description
 
 The project uses the following tables:
 
@@ -51,7 +51,7 @@ Contains sales target information for different product categories.
 
 ---
 
-# 🔗 1. Data Modeling
+#  1. Data Modeling
 
 ## Creating Relationships Between Tables
 
@@ -70,13 +70,8 @@ Before performing calculations, relationships were established between the table
 7. Enabled **Make this relationship active**.
 8. Clicked **Save**.
 
-### 📸 Relationship Screenshot
-
-![Data Model Relationship](assets/02-data-model-relationship.png)
 
 ---
-
-# 🧮 2. Calculated Columns Using DAX
 
 ## Question 1: Create a Calculated Column for Category Type
 
@@ -191,7 +186,7 @@ Successfully categorized sales based on the average Amount.
 
 ---
 
-# 📐 3. Calculated Measures Using DAX
+#  3. Calculated Measures Using DAX
 
 ## Question 4: Calculate Total Order Count
 
@@ -216,13 +211,9 @@ DISTINCTCOUNT(
 4. Selected the **Card Visual**.
 5. Dragged the `Total Orders` measure into the card.
 
-### 📸 DAX Measure Screenshot
 
-![Total Orders DAX](assets/04-total-orders-dax.png)
 
-### 📸 Card Visualization
 
-![Total Orders Card](assets/03-total-orders-card.png)
 
 ### Output
 
@@ -328,9 +319,7 @@ TOTALYTD(
 6. Sorted the order dates chronologically.
 7. Analyzed the cumulative sales trend.
 
-### 📸 Cumulative Sales Visualization
 
-![Cumulative Sales](assets/01-cumulative-sales.png)
 
 ### Result
 
@@ -340,7 +329,7 @@ Successfully visualized the cumulative sales trend over time.
 
 ---
 
-# 📊 4. Data Visualization Using Power BI
+#  4. Data Visualization Using Power BI
 
 ## Question 7: Sales Target Achievement by Category
 
@@ -374,9 +363,7 @@ Replace `Target` with the actual column name in your dataset.
 6. Formatted the chart using separate colors.
 7. Compared actual sales with target values.
 
-### 📸 Clustered Column Chart
 
-![Sales Target by Category](assets/05-sales-vs-target-category.png)
 
 ### Result
 
@@ -415,9 +402,7 @@ The measure calculates maximum row-level Profit divided by Amount.
 6. Enabled data labels.
 7. Analyzed the profit margins across sub-categories.
 
-### 📸 Donut Chart Visualization
 
-![Maximum Profit Margin](assets/06-profit-margin-donut.png)
 
 ### Result
 
@@ -447,9 +432,6 @@ SUM('Order Details (1)'[Amount])
 5. Sorted the dates chronologically.
 6. Analyzed monthly sales trends and fluctuations.
 
-### 📸 Monthly Sales Trend
-
-![Monthly Sales Trend](assets/07-monthly-sales-trend.png)
 
 ### Result
 
@@ -486,9 +468,7 @@ SUM('Order Details (1)'[Quantity])
 7. Used Sub Category as the legend when required.
 8. Analyzed the relationship between quantity and profit.
 
-### 📸 Scatter Chart Visualization
 
-![Profit vs Quantity](assets/08-profit-vs-quantity-scatter.png)
 
 ### Result
 
@@ -581,9 +561,7 @@ SUM('sales target (1)'[Target])
 6. Enabled totals and subtotals.
 7. Compared sales performance across categories and months.
 
-### 📸 Sales Performance Matrix
 
-![Sales Performance Matrix](assets/09a-sales-performance-matrix-detail.png)
 
 ### Result
 
@@ -696,33 +674,9 @@ From the provided dashboard:
 
 Madhya Pradesh and Maharashtra have the highest order counts in the displayed funnel.
 
----
 
-# 📈 5. Dashboard Screenshots
 
-## Dashboard 1: Sales Overview
-
-![Sales Overview](assets/05-sales-vs-target-category.png)
-
-## Dashboard 2: Maximum Profit Margin
-
-![Profit Margin Dashboard](assets/06-profit-margin-donut.png)
-
-## Dashboard 3: Monthly Sales Trend
-
-![Sales Trend Dashboard](assets/07-monthly-sales-trend.png)
-
-## Dashboard 4: Profit and Quantity Analysis
-
-![Profit Quantity Dashboard](assets/08-profit-vs-quantity-scatter.png)
-
-## Dashboard 5: Sales Matrix and State-Wise Orders
-
-![Sales Matrix and Funnel](assets/09-sales-matrix-state-funnel.png)
-
----
-
-# 📊 6. Key Insights
+#  5. Key Insights
 
 Based on the provided Power BI screenshots:
 
@@ -737,7 +691,7 @@ Based on the provided Power BI screenshots:
 
 ---
 
-# 🎯 7. Project Learning Outcomes
+#  6. Project Learning Outcomes
 
 Through this project, I gained practical experience in:
 
@@ -775,7 +729,7 @@ Through this project, I gained practical experience in:
 
 
 
-# 🏁 Conclusion
+#  Conclusion
 
 This project demonstrates the practical application of **Power BI and DAX** to analyze sales data.
 
